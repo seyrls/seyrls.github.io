@@ -1,1 +1,227 @@
-theme: jekyll-theme-hacker
+# Site
+repository: seyrls/seyrls.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Seyr Lemos
+title: Senior PHP Backend Developer
+email: seyrls at gmail dot com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: https://github.com/seyrls
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  seyrls
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: seyrlemos
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+# googleplus_username: +seyrls
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Personal website
+  icon: fab fa-wordpress
+  url: http://seyrlemos.wordpress.com/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi! My name is **Seyr Lemos** and I'm a **Senior PHP backend developer** for more than **14 years**.
+  I came from **Brazil** and I moved to Canada in 2017 (what are you doing here in this cold place? Hard question!) with my beloved wife and my beautiful daughter.
+
+  I'm a passionate person and I love what I do. I really believe that technology can help people to have a more dignified life despite the difficulties we may face in our day-a-day.
+
+  I've been developing projects over the years in different company's sizes (Governments, medium/large companies, startups) using different stacks and my skills are more focus on
+
+  - PHP (Symfony, Laravel and Codeigniter frameworks)
+  - MySQL and PostgreSQL databases
+  - Redis and Memcache cache system
+  - AWS infrastructure (RDS, EC2, SNS)
+  - Integrations
+    - POS systems (Vexilor/NCR/DeliverPlus/Revel/VisionMax)
+    - Payment processors (Bambora/Moneris/PayPal/Givex)
+    - Delivery System (DoorDash)
+    - Campaign system (Sendgrid/Mailchimp)
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Personal projects
+        link: https://github.com/seyrls
+        link_text: GHitHub repository
+        additional_links:
+          - title:  Repo containing some personal projects and code challenges
+            icon: fab fa-github
+            url: https://github.com/seyrls
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #  icon: fab fa-github
+          #  url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Here I push all my personal projects and some code challenges I took over the years.
+        description: | # this will include new lines to allow paragraphs
+          Some projects are abandoned because I didn't have time update them or was just something sporadic.
+  - title: Experience (Last 3 jobs)
+    layout: list
+    content:
+      - layout: left
+        title: Smooth Commerce - Canada
+        sub_title: PHP Backend Team Leader
+        caption: Mar 2017 – Jan - 2021
+        link: http://www.smooth.tech
+        quote: >
+          Helped the company to create the whole order ahead system from scratch including loyalty program, payment and POS integrations.
+        description: | # this will include new lines to allow paragraphs
+          Led the development of new features (order ahead, loyalty, marketing campaign) for white-label apps as well as a web version.
+
+          Milestones:
+            * developed order ahead, loyalty, menu, combos, store locations functionalities
+            from scratch using RestFul API standard (jsonapi.org) to deliver data to the
+            apps (Android and iOS) and a web portal.
+            * led the backend team to do full integration with major POS system brands
+            (NCR, Vexilor and DeliverPlus) to the core system.
+            * implemented design patterns into the core bundle including factory, decorator, iterator.
+            * implemented the new framework for building dynamic any kind of offers/loyalty to be redeemed by customers.
+          The next milestone on this project is to migrate the current monolithic system to microservices.
+          Full-stack development using PHP Symfony 3.4, MySQL 8, Google Firebase, NGINX, Linux Ubuntu, and 3rd parties’ APIs (Bambora Payment, Moneris payment, Mailchimp, Sendgrid, Twilio, SNS Push notification)
+
+      - layout: left
+        title: Ministry of Justice - Brazil
+        sub_title: Full Stack Senior Developer
+        caption: Jun 2014 - Jan 2017
+        link: http://www.justica.gov.br
+        quote: >
+          Helped the Department of Consumer Protection to maintain some legacy systems as well as create new platforms to improve the consumers protection.
+        description: | # this will include new lines to allow paragraphs
+          Led the development team to maintain two legacy platforms and develop from scratch two new platforms
+
+          Milestones:
+            * developed and maintained a new platform from scratch using PHP Laravel
+            framework replacing a legacy ASP-based application.
+            apps (Android and iOS) and a web portal.
+            * develop a new platform for Recall Alerts System including reports, recall
+            campaign management, notification center (message blast) to customers/citizens
+            and partners using CodeIgniter PHP framework, SQL Server. (http://portal.mj.gov.br/recall/principal/report)
+            * developed and maintained a web system for Consumer Accidents (SIAC) in partnership with the Ministry of Health and Organization of American States (OAS) using PHP Laravel framework and MySQL database.
+
+          Full-stack development using PHP CodeIgniter and Laravel 5.2, MySQL 5.6 and MS SQL 2000, Microsoft environment, and 3rd parties’ APIs (OAS alert system).
+
+      - layout: left
+        title: Ministry of Planning, Development, And Management (Brazil)
+        sub_title: Full Stack Senior Developer
+        caption: Apr 2010 - Jun 2014
+        link: http://www.planejamento.gov.br
+        quote: >
+          Helped the Department of Innovation and Technology to build and maintain an ecosystem around the concept of public software (open source code) based on the premise of software as a public right.
+        description: | # this will include new lines to allow paragraphs
+          Member of the development team responsible for the management of the Brazilian Public Software Platform (http://softwarepublico.gov.br)
+
+          Milestones:
+            * responsible for the implementation of a multitenant application to support all
+            software communities giving the ability to share, news, forums,
+            deployment/versioning code (GitLab, Jenkins).
+            * managed the development team to migrate the legacy forum platform to the new
+            platform using the Noosfero application.
+            * led many software communities to share the knowledge, code and best practices following the Brazilian laws as well as GPL v2 licenses.
+            * acted actively to build the new legislation about sharing software through the
+            Brazilian Public Software platform as well as built the process of how to transform the application into a public software.
+
+          Full-stack development helping software communities to have their softwares developed, tested and published through the portal.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: Faculdade Integrada AVM (Brazil)
+        sub_title: App mobile development and Backend Platform (Postgraduate)
+        caption: Jan 2016 - Dec 2016
+        quote: >
+          Course focused on project and software development based on mobile platforms.
+        description: | # this will include new lines to allow paragraphs
+          Developed a project to give access to all Brazilian citizens to follow information about public projects
+          related to consumer relations (products recall, health and consumer safety, problems in consumer relations) using public open databases
+          and able to visualize all the information on the Android app.
+
+      - layout: top-left
+        title: Faculdade Michelangelo
+        sub_title: Computer Science (B.Sc)
+        caption: Jan 2002 - Dec 2004
+        quote: >
+          Course focused on project and software development.
+        description: | # this will include new lines to allow paragraphs
+          Led a project to help a group of private schools to manage the officers, principals, students and parents to have all information
+          about the students (grades, tuitions, libraries, etc.) using a web platform.
+
+  - title: Technical Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - PHP frameworks (Symfony, Laravel, and Codeigniter)
+      - Databases (MySQL, MS SQL, PostgreSQL)
+      - Web servers (NGIX, Apache)
+      - Linux (Ubuntu and Debian)
+      - Cloud (AWS)
+      - Versioning system (Bitbucket, Github)
+      - Project management (Jira, Trello).
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      During my free time I do voluntary work at [Younge Street Mission](https://www.ysm.ca) in Toronto, ON teaching kids to develop websites using HTML5 and CSS3.
+
+      My hobby is play guitar and different musical instruments. I can play classic guitar, eletric guitar, bass, ukulele, country guitar [Brazilia Guitar](https://upload.wikimedia.org/wikipedia/commons/6/6d/Brazdaviola.jpg).
+
+      It can be funny but when I was kid my dream was to be a rock star like Iron Maiden and the only star I could make it was during the Christmas presentation at school.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
