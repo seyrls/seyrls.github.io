@@ -88,9 +88,26 @@ content:
           Here I push all my personal projects and some code challenges I took over the years.
         description: | # this will include new lines to allow paragraphs
           Some projects are abandoned because I didn't have time update them or was just something sporadic.
-  - title: Experience (Last 3 jobs)
+  - title: Experience (Last 4 jobs)
     layout: list
     content:
+      - layout: left
+        title: GoodFood Market Inc. - Canada
+        sub_title: Senior Software Developer
+        caption: Feb 2021 – Actual
+        link: http://www.makegoodfood.ca
+        quote: >
+          Helping the team to maintain and developer old/new features in the current platform.
+        description: | # this will include new lines to allow paragraphs
+          Led the development/maintanance of features on the current application/portal (orders, stock, production, logistic).
+
+          Milestones:
+            * implementing OOP standards (design patterns such as factory, decorator, iterator) to the legacy system.
+            * implementing import/export data from legacy database.
+            * implementing the new coupon workflows using state machine.
+          The next milestone on this project is to migrate the current monolithic system to microservices.
+          Full-stack development using PHP Laravel 5.6, MySQL 5.7, Google Firebase, NGINX, Linux Ubuntu, and 3rd parties’ APIs (Mailchimp, Sendgrid)
+
       - layout: left
         title: Smooth Commerce - Canada
         sub_title: PHP Backend Team Leader
